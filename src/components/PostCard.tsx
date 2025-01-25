@@ -132,7 +132,7 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
 
           {/* POST IMAGE */}
           {post.image && (
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-lg overflow-hidden max-w-[250px]">
               <img
                 src={post.image}
                 alt="Post content"
